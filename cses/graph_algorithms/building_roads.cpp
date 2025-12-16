@@ -32,7 +32,7 @@ int main() {
         dfs(i);
     }
 
-    dif_cities =  max(0 , dif_cities -1);
+    dif_cities--;
     cout << dif_cities << endl;
 
 
@@ -43,9 +43,6 @@ int main() {
         cout << *x << endl;
         x++;
     }
-
-
-
 
 }
 
